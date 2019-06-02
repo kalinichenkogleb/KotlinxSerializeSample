@@ -11,7 +11,7 @@ class ExternalStartWarShipSerializationTest {
 
     private val DUMMY_EXTERNAL_RACER_SERIALIZATION = ExternalRacer("Anakin", "Skywalker")
     private val DUMMY_START_WAR_SHIP = StartWarShip(Date(1538636400000L), DUMMY_EXTERNAL_RACER_SERIALIZATION)
-    private val DUMMY_START_WAR_SHIP_JSON = "{date:\"04/10/2018 09:00:00.000\",racer:{firstName:Anakin,lastName:Skywalker}}"
+    private val DUMMY_START_WAR_SHIP_JSON = "{date:\"04/10/2018 10:00\",racer:{firstName:Anakin,lastName:Skywalker}}"
 
     @Test
     fun testExternalUserSerialization() {

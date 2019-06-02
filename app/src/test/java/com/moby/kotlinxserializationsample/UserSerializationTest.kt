@@ -7,8 +7,8 @@ import org.junit.Test
 
 class UserSerializationTest {
 
-    private val DUMMY_JEDI_USER_JSON = "{firstName:Anakin,lastName:Skywalker}"
-    private val DUMMY_JEDI_USER = User("Anakin", "Skywalker")
+    private val DUMMY_JEDI_USER_JSON = "{firstName:Anakin,lastName:Skywalker,full_address:USA}"
+    private val DUMMY_JEDI_USER = User("Anakin", "Skywalker","USA")
 
     @Test
     fun testUserSerialization() {
